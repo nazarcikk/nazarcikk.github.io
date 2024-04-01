@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(to left, #eef1f1,#423f3f);
+    font-family: monospace;
+    height: 100vh;
+    font-size: 20px
+}
