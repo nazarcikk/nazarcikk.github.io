@@ -13,5 +13,47 @@
 }
 
 .anime1:hover{
-    box-shadow: 0 0 0 35px rgb(251, 255, 0) inset;
+    box-shadow: 0 0 0 35px rgb(0, 217, 255) inset;
+}
+.anime2{
+    opacity: 0.1;
+}
+.anime2:hover{
+    opacity: 1;
+}
+.anime3:hover{
+    transform: scale(1.2);
+}
+.anime4:hover{
+    border-radius: 100px;
+    width: 550px;
+}
+.anime5:hover{
+    transform: rotateZ(20deg);
+    margin: 72px auto;
+}
+@keyframes flip {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+p{
+    animation: flip 0.5s linear 0.5s infinite;
+}
+.anime7{
+    animation: neznau 10s ease 0s 1188 alternate;
+}
+@keyframes neznau {
+    38%{
+        opacity: 0;
+    }
+    58%{
+        transform: scale(2);
+    }
+    77%{
+        transform: rotateZ(90deg);
+    }
+    100%{
+        transform: skew(10deg,5deg);
+    }
 }
