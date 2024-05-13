@@ -43,7 +43,45 @@
     height: 500px;
     background-size: 100% 100%;
     letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
 }
 body{
     background: url(https://blackcatleo.ru/wp-content/uploads/2022/05/partner.jpg);
+}
+.pubg_img{
+    width: 250px;
+    height: 250px;
+}
+.pubg_text{
+    width: 1400px;
+    height: 250px;
+    font-size: 15px
+}
+.pabg_photo{
+    width: 250px;
+    height: 250px;
+}
+.osnova2{
+    color: floralwhite;
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.pubg_img2{
+    width: 250px;
+    height: 250px;
+    background: rgb(4, 48, 83);
+}
+.pubg_text2{
+    width: 1400px;
+    height: 250px;
+    font-size: 15px;
+}
+.ret{
+    width: 250px;
+    height: 250px;
 }
